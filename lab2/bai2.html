@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var x = prompt("nhập: ")
+        if (isNaN(x) == false) {
+            alert(x + " là một số ")
+            var a = Math.sqrt(x)
+            alert("căn bặc 2 của số đã nhập: " + a)
+            var b = Math.pow(x, 2)
+            alert("Bình phương của số đã nhập: " + b)
+            var c = Math.round(x)
+            alert("Làm tròn số đã nhập: " + c)
+        } else {
+            alert(" không phải là một số: " + x)
+        }
+    </script>
+</body>
+
+</html>
